@@ -1,0 +1,60 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L FPGA_Lattice:ICE40UP5K-SG48ITR U401
+U 1 1 5F6CBE5B
+P 3075 3300
+F 0 "U401" H 3405 3353 50  0000 L CNN
+F 1 "ICE40UP5K-SG48ITR" H 3405 3262 50  0000 L CNN
+F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm" H 3075 1950 50  0001 C CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra" H 2675 4300 50  0001 C CNN
+	1    3075 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGA_Lattice:ICE40UP5K-SG48ITR U401
+U 2 1 5F6CD198
+P 5225 3350
+F 0 "U401" H 5225 2275 50  0000 C CNN
+F 1 "ICE40UP5K-SG48ITR" H 5225 2184 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm" H 5225 2000 50  0001 C CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra" H 4825 4350 50  0001 C CNN
+	2    5225 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGA_Lattice:ICE40UP5K-SG48ITR U401
+U 3 1 5F6CF467
+P 7100 3350
+F 0 "U401" H 7430 3453 50  0000 L CNN
+F 1 "ICE40UP5K-SG48ITR" H 7430 3362 50  0000 L CNN
+F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm" H 7100 2000 50  0001 C CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra" H 6700 4350 50  0001 C CNN
+	3    7100 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGA_Lattice:ICE40UP5K-SG48ITR U401
+U 4 1 5F6D0883
+P 8650 3625
+F 0 "U401" H 8880 3671 50  0000 L CNN
+F 1 "ICE40UP5K-SG48ITR" H 8880 3580 50  0000 L CNN
+F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm" H 8650 2275 50  0001 C CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra" H 8250 4625 50  0001 C CNN
+	4    8650 3625
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

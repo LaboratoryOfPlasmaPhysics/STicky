@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name ADS92x4R)(type Legacy)(uri ${KIPRJMOD}/libs/ADS92x4R.lib)(options "")(descr ""))
+  (lib (name THS4551)(type Legacy)(uri ${KIPRJMOD}/libs/THS4551.lib)(options "")(descr ""))
+)
