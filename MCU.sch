@@ -15,7 +15,7 @@ Comment4 ""
 $EndDescr
 Wire Wire Line
 	4725 3975 4450 3975
-Text HLabel 4450 3975 0    50   Input ~ 0
+Text HLabel 4450 3975 0    50   Output ~ 0
 USB_ULPI_STP
 Wire Wire Line
 	4725 4175 4450 4175
@@ -27,7 +27,7 @@ Text HLabel 4450 4275 0    50   Input ~ 0
 USB_ULPI_NXT
 Wire Wire Line
 	6025 2475 6300 2475
-Text HLabel 6300 2475 2    50   Input ~ 0
+Text HLabel 6300 2475 2    50   BiDi ~ 0
 USB_ULPI_D0
 Wire Wire Line
 	6025 2675 6300 2675
@@ -35,31 +35,31 @@ Text HLabel 6300 2675 2    50   Input ~ 0
 USB_ULPI_CK
 Wire Wire Line
 	6025 3875 6300 3875
-Text HLabel 6300 3875 2    50   Input ~ 0
+Text HLabel 6300 3875 2    50   BiDi ~ 0
 USB_ULPI_D1
 Wire Wire Line
 	6025 3975 6300 3975
-Text HLabel 6300 3975 2    50   Input ~ 0
+Text HLabel 6300 3975 2    50   BiDi ~ 0
 USB_ULPI_D2
 Wire Wire Line
 	6025 4875 6300 4875
-Text HLabel 6300 4875 2    50   Input ~ 0
+Text HLabel 6300 4875 2    50   BiDi ~ 0
 USB_ULPI_D3
 Wire Wire Line
 	6025 4975 6300 4975
-Text HLabel 6300 4975 2    50   Input ~ 0
+Text HLabel 6300 4975 2    50   BiDi ~ 0
 USB_ULPI_D4
 Wire Wire Line
 	6025 5075 6300 5075
-Text HLabel 6300 5075 2    50   Input ~ 0
+Text HLabel 6300 5075 2    50   BiDi ~ 0
 USB_ULPI_D5
 Wire Wire Line
 	6025 5175 6300 5175
-Text HLabel 6300 5175 2    50   Input ~ 0
+Text HLabel 6300 5175 2    50   BiDi ~ 0
 USB_ULPI_D6
 Wire Wire Line
 	6025 4375 6300 4375
-Text HLabel 6300 4375 2    50   Input ~ 0
+Text HLabel 6300 4375 2    50   BiDi ~ 0
 USB_ULPI_D7
 $Comp
 L power:GND #PWR0210
