@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 7
+Sheet 4 8
 Title ""
 Date ""
 Rev ""
@@ -16,12 +16,12 @@ $EndDescr
 $Comp
 L FPGA_Lattice:ICE40UP5K-SG48ITR U401
 U 1 1 5F6CBE5B
-P 3075 3300
-F 0 "U401" H 3405 3353 50  0000 L CNN
-F 1 "ICE40UP5K-SG48ITR" H 3405 3262 50  0000 L CNN
-F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm" H 3075 1950 50  0001 C CNN
-F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra" H 2675 4300 50  0001 C CNN
-	1    3075 3300
+P 2325 3275
+F 0 "U401" H 2655 3328 50  0000 L CNN
+F 1 "ICE40UP5K-SG48ITR" H 2655 3237 50  0000 L CNN
+F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm" H 2325 1925 50  0001 C CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra" H 1925 4275 50  0001 C CNN
+	1    2325 3275
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -38,23 +38,341 @@ $EndComp
 $Comp
 L FPGA_Lattice:ICE40UP5K-SG48ITR U401
 U 3 1 5F6CF467
-P 7100 3350
-F 0 "U401" H 7430 3453 50  0000 L CNN
-F 1 "ICE40UP5K-SG48ITR" H 7430 3362 50  0000 L CNN
-F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm" H 7100 2000 50  0001 C CNN
-F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra" H 6700 4350 50  0001 C CNN
-	3    7100 3350
+P 7925 3075
+F 0 "U401" H 8255 3178 50  0000 L CNN
+F 1 "ICE40UP5K-SG48ITR" H 8255 3087 50  0000 L CNN
+F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm" H 7925 1725 50  0001 C CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra" H 7525 4075 50  0001 C CNN
+	3    7925 3075
 	1    0    0    -1  
 $EndComp
 $Comp
 L FPGA_Lattice:ICE40UP5K-SG48ITR U401
 U 4 1 5F6D0883
-P 8650 3625
-F 0 "U401" H 8880 3671 50  0000 L CNN
-F 1 "ICE40UP5K-SG48ITR" H 8880 3580 50  0000 L CNN
-F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm" H 8650 2275 50  0001 C CNN
-F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra" H 8250 4625 50  0001 C CNN
-	4    8650 3625
+P 9475 3350
+F 0 "U401" H 9705 3396 50  0000 L CNN
+F 1 "ICE40UP5K-SG48ITR" H 9705 3305 50  0000 L CNN
+F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm" H 9475 2000 50  0001 C CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra" H 9075 4350 50  0001 C CNN
+	4    9475 3350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4725 3950 4400 3950
+Wire Wire Line
+	4400 4050 4725 4050
+Wire Wire Line
+	4400 4150 4725 4150
+Wire Wire Line
+	4400 4250 4725 4250
+Wire Wire Line
+	4725 2650 4575 2650
+Wire Wire Line
+	5725 2650 5875 2650
+Wire Wire Line
+	2325 2175 2325 2050
+Wire Wire Line
+	2325 2050 2425 2050
+Text Label 2425 2050 0    50   ~ 0
+3.3V
+Wire Wire Line
+	5225 2250 5225 2125
+Wire Wire Line
+	5225 2125 5325 2125
+Text Label 5325 2125 0    50   ~ 0
+3.3V
+Wire Wire Line
+	7925 2375 7925 2250
+Wire Wire Line
+	7925 2250 8025 2250
+Text Label 8025 2250 0    50   ~ 0
+3.3V
+Wire Wire Line
+	9575 2950 9575 2900
+Wire Wire Line
+	9575 2825 9675 2825
+Text Label 9675 2825 0    50   ~ 0
+1.2V
+Wire Wire Line
+	9475 2950 9475 2900
+Wire Wire Line
+	9475 2900 9575 2900
+Connection ~ 9575 2900
+Wire Wire Line
+	9575 2900 9575 2825
+Wire Wire Line
+	9375 2950 9375 2825
+Wire Wire Line
+	9375 2825 9225 2825
+Text Label 9225 2825 0    50   ~ 0
+3.3V
+$Comp
+L power:GND #PWR0407
+U 1 1 5F6BDA1C
+P 9475 3825
+F 0 "#PWR0407" H 9475 3575 50  0001 C CNN
+F 1 "GND" H 9480 3652 50  0000 C CNN
+F 2 "" H 9475 3825 50  0001 C CNN
+F 3 "" H 9475 3825 50  0001 C CNN
+	1    9475 3825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9475 3825 9475 3750
+Text HLabel 4575 2650 0    50   Input ~ 0
+~FPGA_CFG_RESET
+Text HLabel 5875 2650 2    50   Output ~ 0
+FPGA_CFG_DONE
+Text HLabel 4400 3950 0    50   Output ~ 0
+FPGA_CFG_MISO
+Text HLabel 4400 4050 0    50   Input ~ 0
+FPGA_CFG_MOSI
+Text HLabel 4400 4150 0    50   Input ~ 0
+FPGA_CFG_CLK
+Text HLabel 4400 4250 0    50   Input ~ 0
+FPGA_CFG_CS
+Wire Wire Line
+	5275 900  5275 775 
+Wire Wire Line
+	5275 775  5375 775 
+Text Label 5375 775  0    50   ~ 0
+3.3V
+$Comp
+L Device:C C401
+U 1 1 5F6E7606
+P 5275 1050
+F 0 "C401" H 5390 1096 50  0000 L CNN
+F 1 "100nF" H 5390 1005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5313 900 50  0001 C CNN
+F 3 "~" H 5275 1050 50  0001 C CNN
+	1    5275 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0401
+U 1 1 5F6EBDF4
+P 5275 1275
+F 0 "#PWR0401" H 5275 1025 50  0001 C CNN
+F 1 "GND" H 5280 1102 50  0000 C CNN
+F 2 "" H 5275 1275 50  0001 C CNN
+F 3 "" H 5275 1275 50  0001 C CNN
+	1    5275 1275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5275 1275 5275 1200
+Wire Wire Line
+	5825 900  5825 775 
+Wire Wire Line
+	5825 775  5925 775 
+Text Label 5925 775  0    50   ~ 0
+3.3V
+$Comp
+L Device:C C402
+U 1 1 5F6FB99C
+P 5825 1050
+F 0 "C402" H 5940 1096 50  0000 L CNN
+F 1 "100nF" H 5940 1005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5863 900 50  0001 C CNN
+F 3 "~" H 5825 1050 50  0001 C CNN
+	1    5825 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0402
+U 1 1 5F6FB9A6
+P 5825 1275
+F 0 "#PWR0402" H 5825 1025 50  0001 C CNN
+F 1 "GND" H 5830 1102 50  0000 C CNN
+F 2 "" H 5825 1275 50  0001 C CNN
+F 3 "" H 5825 1275 50  0001 C CNN
+	1    5825 1275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5825 1275 5825 1200
+Wire Wire Line
+	6475 900  6475 775 
+Wire Wire Line
+	6475 775  6575 775 
+Text Label 6575 775  0    50   ~ 0
+3.3V
+$Comp
+L Device:C C403
+U 1 1 5F703E55
+P 6475 1050
+F 0 "C403" H 6590 1096 50  0000 L CNN
+F 1 "100nF" H 6590 1005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6513 900 50  0001 C CNN
+F 3 "~" H 6475 1050 50  0001 C CNN
+	1    6475 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0403
+U 1 1 5F703E5F
+P 6475 1275
+F 0 "#PWR0403" H 6475 1025 50  0001 C CNN
+F 1 "GND" H 6480 1102 50  0000 C CNN
+F 2 "" H 6475 1275 50  0001 C CNN
+F 3 "" H 6475 1275 50  0001 C CNN
+	1    6475 1275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6475 1275 6475 1200
+Wire Wire Line
+	7025 900  7025 775 
+Wire Wire Line
+	7025 775  7125 775 
+Text Label 7125 775  0    50   ~ 0
+3.3V
+$Comp
+L Device:C C404
+U 1 1 5F703E6D
+P 7025 1050
+F 0 "C404" H 7140 1096 50  0000 L CNN
+F 1 "100nF" H 7140 1005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7063 900 50  0001 C CNN
+F 3 "~" H 7025 1050 50  0001 C CNN
+	1    7025 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0404
+U 1 1 5F703E77
+P 7025 1275
+F 0 "#PWR0404" H 7025 1025 50  0001 C CNN
+F 1 "GND" H 7030 1102 50  0000 C CNN
+F 2 "" H 7025 1275 50  0001 C CNN
+F 3 "" H 7025 1275 50  0001 C CNN
+	1    7025 1275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7025 1275 7025 1200
+Wire Wire Line
+	7775 875  7775 750 
+Wire Wire Line
+	7775 750  7875 750 
+Text Label 7875 750  0    50   ~ 0
+1.2V
+$Comp
+L Device:C C405
+U 1 1 5F7106A1
+P 7775 1025
+F 0 "C405" H 7890 1071 50  0000 L CNN
+F 1 "100nF" H 7890 980 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7813 875 50  0001 C CNN
+F 3 "~" H 7775 1025 50  0001 C CNN
+	1    7775 1025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0405
+U 1 1 5F7106AB
+P 7775 1250
+F 0 "#PWR0405" H 7775 1000 50  0001 C CNN
+F 1 "GND" H 7780 1077 50  0000 C CNN
+F 2 "" H 7775 1250 50  0001 C CNN
+F 3 "" H 7775 1250 50  0001 C CNN
+	1    7775 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7775 1250 7775 1175
+Wire Wire Line
+	8350 875  8350 750 
+Wire Wire Line
+	8350 750  8450 750 
+Text Label 8450 750  0    50   ~ 0
+1.2V
+$Comp
+L Device:C C406
+U 1 1 5F7167CB
+P 8350 1025
+F 0 "C406" H 8465 1071 50  0000 L CNN
+F 1 "100nF" H 8465 980 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8388 875 50  0001 C CNN
+F 3 "~" H 8350 1025 50  0001 C CNN
+	1    8350 1025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0406
+U 1 1 5F7167D5
+P 8350 1250
+F 0 "#PWR0406" H 8350 1000 50  0001 C CNN
+F 1 "GND" H 8355 1077 50  0000 C CNN
+F 2 "" H 8350 1250 50  0001 C CNN
+F 3 "" H 8350 1250 50  0001 C CNN
+	1    8350 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 1250 8350 1175
+Text HLabel 9450 825  0    50   Input ~ 0
+1.2V
+Text HLabel 9450 700  0    50   Input ~ 0
+3.3V
+Wire Wire Line
+	9450 825  9550 825 
+Text Label 9550 825  0    50   ~ 0
+1.2V
+Wire Wire Line
+	9450 700  9550 700 
+Text Label 9550 700  0    50   ~ 0
+3.3V
+Wire Wire Line
+	6650 3550 6850 3550
+Text HLabel 6850 3550 2    50   Input ~ 0
+CONVST
+Wire Wire Line
+	6650 3750 6850 3750
+Text HLabel 6850 3750 2    50   Input ~ 0
+~CS
+Wire Wire Line
+	6650 3850 6850 3850
+Text HLabel 6850 3850 2    50   Input ~ 0
+SCLK
+Wire Wire Line
+	6650 3950 6850 3950
+Text HLabel 6850 3950 2    50   Input ~ 0
+SDI
+Wire Wire Line
+	6650 4100 6850 4100
+Text HLabel 6850 4100 2    50   Input ~ 0
+READY_STROBE
+Wire Wire Line
+	6650 4200 6850 4200
+Text HLabel 6850 4200 2    50   Input ~ 0
+SDO-0_0A
+Wire Wire Line
+	6650 4300 6850 4300
+Text HLabel 6850 4300 2    50   Input ~ 0
+SDO-1_1A
+Wire Wire Line
+	6650 4400 6850 4400
+Text HLabel 6850 4400 2    50   Input ~ 0
+SDO-2_2A
+Wire Wire Line
+	6650 4500 6850 4500
+Text HLabel 6850 4500 2    50   Input ~ 0
+SDO-3_3A
+Wire Wire Line
+	6650 4650 6850 4650
+Text HLabel 6850 4650 2    50   Input ~ 0
+SDO-4_0B
+Wire Wire Line
+	6650 4750 6850 4750
+Text HLabel 6850 4750 2    50   Input ~ 0
+SDO-5_1B
+Wire Wire Line
+	6650 4850 6850 4850
+Text HLabel 6850 4850 2    50   Input ~ 0
+SDO-6_2B
+Wire Wire Line
+	6650 4950 6850 4950
+Text HLabel 6850 4950 2    50   Input ~ 0
+SDO-7_3B
 $EndSCHEMATC
