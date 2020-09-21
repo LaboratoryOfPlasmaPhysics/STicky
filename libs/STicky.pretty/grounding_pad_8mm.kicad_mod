@@ -1,4 +1,4 @@
-(module grounding_pad (layer F.Cu) (tedit 5F6867EF)
+(module grounding_pad_8mm (layer F.Cu) (tedit 5F6867FE)
   (zone_connect 2)
   (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -6,7 +6,7 @@
   (fp_text value grounding_pad (at 0 -0.5) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (pad 1 smd custom (at 0 0) (size 10 2) (layers F.Cu F.Paste F.Mask)
+  (pad 1 smd custom (at 0 0) (size 8 2) (layers F.Cu F.Paste F.Mask)
     (zone_connect 2)
     (options (clearance outline) (anchor rect))
     (primitives

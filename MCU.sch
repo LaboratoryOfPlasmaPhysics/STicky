@@ -219,17 +219,6 @@ Wire Wire Line
 	4925 1075 4975 1075
 Text Label 5050 900  0    50   ~ 0
 3.3V
-$Comp
-L Device:Crystal_Small Y201
-U 1 1 5F67B87C
-P 3825 2925
-F 0 "Y201" V 3825 3013 50  0000 L CNN
-F 1 "Crystal_Small" V 3870 3013 50  0001 L CNN
-F 2 "" H 3825 2925 50  0001 C CNN
-F 3 "~" H 3825 2925 50  0001 C CNN
-	1    3825 2925
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4075 2975 4025 2975
 Wire Wire Line
@@ -784,4 +773,43 @@ Wire Wire Line
 	4075 5475 3800 5475
 Text HLabel 3800 5475 0    50   Input ~ 0
 FPGA_CFG_DONE
+Text HLabel 6050 850  2    50   Input ~ 0
+3.3V
+Text Label 5900 850  2    50   ~ 0
+3.3V
+Wire Wire Line
+	5900 850  6050 850 
+$Comp
+L Device:Crystal_GND2_Small Y201
+U 1 1 5F6B1970
+P 3825 2925
+F 0 "Y201" V 3779 3013 50  0000 L CNN
+F 1 "8MHz" V 3870 3013 50  0000 L CNN
+F 2 "Crystal:Resonator_SMD_muRata_CSTxExxV-3Pin_3.0x1.1mm" H 3825 2925 50  0001 C CNN
+F 3 "~" H 3825 2925 50  0001 C CNN
+F 4 "https://www.mouser.fr/ProductDetail/Murata-Electronics/CSTNE8M00G550000R0?qs=y6ZabgHbY%252BzeBq2Vg%2FdAYw%3D%3D" H 3825 2925 50  0001 C CNN "Mouser"
+	1    3825 2925
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0142
+U 1 1 5F6BB0CF
+P 3625 2925
+F 0 "#PWR0142" H 3625 2675 50  0001 C CNN
+F 1 "GND" H 3630 2752 50  0000 C CNN
+F 2 "" H 3625 2925 50  0001 C CNN
+F 3 "" H 3625 2925 50  0001 C CNN
+	1    3625 2925
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3625 2925 3725 2925
+Text HLabel 3900 3275 0    50   Input ~ 0
+~POWERDOWN
+Wire Wire Line
+	4075 3275 3900 3275
+Text HLabel 3800 3775 0    50   Output ~ 0
+FPGA_HAVE_DATA
+Wire Wire Line
+	4075 3775 3800 3775
 $EndSCHEMATC

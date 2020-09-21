@@ -499,19 +499,6 @@ Wire Wire Line
 	4825 4800 5000 4800
 Text Label 4825 4800 2    50   ~ 0
 3.3V
-$Comp
-L Device:Crystal_Small Y301
-U 1 1 5F6A5FA6
-P 4775 4200
-AR Path="/5F66CB5F/5F6A5FA6" Ref="Y301"  Part="1" 
-AR Path="/5F674C0E/5F6A5FA6" Ref="Y?"  Part="1" 
-F 0 "Y301" V 4675 4200 50  0000 L CNN
-F 1 "24MHz" V 4775 4275 50  0000 L CNN
-F 2 "" H 4775 4200 50  0001 C CNN
-F 3 "~" H 4775 4200 50  0001 C CNN
-	1    4775 4200
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5000 4100 4950 4100
 Wire Wire Line
@@ -758,4 +745,16 @@ Text Label 6775 3700 0    50   ~ 0
 VDDA1.8V
 Text Label 9300 1800 0    50   ~ 0
 VDDA1.8V
+$Comp
+L Device:Crystal_GND24_Small Y301
+U 1 1 5F690256
+P 4775 4200
+F 0 "Y301" V 4675 4200 50  0000 L CNN
+F 1 "24MHz" V 4750 4325 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_EuroQuartz_MJ-4Pin_5.0x3.2mm_HandSoldering" H 4775 4200 50  0001 C CNN
+F 3 "~" H 4775 4200 50  0001 C CNN
+F 4 "https://www.mouser.fr/ProductDetail/ECS/ECS-240-20-30B-DU?qs=94V4QatVK%252Bf%252BMnDZtqs47A%3D%3D" V 4775 4200 50  0001 C CNN "Mouser"
+	1    4775 4200
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

@@ -513,4 +513,8 @@ Wire Wire Line
 	4250 3350 4725 3350
 Wire Wire Line
 	4250 2950 4725 2950
+Wire Wire Line
+	7525 2875 7250 2875
+Text HLabel 7250 2875 0    50   Output ~ 0
+FPGA_HAVE_DATA
 $EndSCHEMATC
