@@ -812,4 +812,8 @@ Text HLabel 3800 3775 0    50   Output ~ 0
 FPGA_HAVE_DATA
 Wire Wire Line
 	4075 3775 3800 3775
+Wire Wire Line
+	5775 2075 6050 2075
+Text HLabel 6050 2075 2    50   Output ~ 0
+USB_ULPI_RESET
 $EndSCHEMATC
