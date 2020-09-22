@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name STicky)(type KiCad)(uri ${KIPRJMOD}/libs/STicky.pretty)(options "")(descr ""))
+  (lib (name DX07S016JA1R1500)(type KiCad)(uri ${KIPRJMOD}/libs/DX07S016JA1R1500.pretty)(options "")(descr ""))
 )
