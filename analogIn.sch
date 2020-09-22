@@ -5,12 +5,12 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 8
 Title "Dual chan ADC"
-Date ""
+Date "2020-09-21"
 Rev "1.0"
 Comp "LPP/CNRS"
 Comment1 "Alexis Jeandet"
-Comment2 ""
-Comment3 ""
+Comment2 "CC-BY-SA"
+Comment3 "alexis.jeandet@member.fsf.org"
 Comment4 ""
 $EndDescr
 $Comp
