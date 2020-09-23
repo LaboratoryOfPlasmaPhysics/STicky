@@ -420,8 +420,6 @@ Wire Wire Line
 Text HLabel 7325 3475 0    50   Input ~ 0
 SDO-1_1A
 Wire Wire Line
-	4725 3050 4525 3050
-Wire Wire Line
 	4725 3150 4525 3150
 Text HLabel 4525 3150 0    50   Input ~ 0
 SDO-4_0B
@@ -430,92 +428,88 @@ Wire Wire Line
 Text HLabel 4525 3250 0    50   Input ~ 0
 SDO-5_1B
 Wire Wire Line
-	1925 3175 1650 3175
-Text HLabel 1650 3275 0    50   Input ~ 0
+	7525 2975 7250 2975
+Text HLabel 7250 3175 0    50   Input ~ 0
 FPGA_D4
 Wire Wire Line
-	1925 3275 1650 3275
-Text HLabel 1650 3175 0    50   Input ~ 0
+	7525 3175 7250 3175
+Text HLabel 7250 2975 0    50   Input ~ 0
 FPGA_D5
 Wire Wire Line
-	1925 3375 1650 3375
-Text HLabel 1650 3575 0    50   Input ~ 0
+	7525 3275 7250 3275
+Text HLabel 7250 2875 0    50   Input ~ 0
 FPGA_D6
-Text HLabel 1650 3375 0    50   Input ~ 0
+Text HLabel 7250 3275 0    50   Input ~ 0
 FPGA_D7
 Wire Wire Line
-	1925 3475 1650 3475
-Text HLabel 1650 3675 0    50   Input ~ 0
+	1925 3775 1650 3775
+Text HLabel 7250 3075 0    50   Input ~ 0
 FPGA_D8
 Wire Wire Line
-	1925 3675 1650 3675
-Text HLabel 1650 3475 0    50   Input ~ 0
+	7525 3075 7250 3075
+Text HLabel 1650 3775 0    50   Input ~ 0
 FPGA_D9
 Wire Wire Line
-	1925 3075 1650 3075
-Text HLabel 1650 3075 0    50   Input ~ 0
+	1925 3975 1650 3975
+Text HLabel 1650 3975 0    50   Input ~ 0
 FPGA_D10
-Wire Wire Line
-	1925 2875 1650 2875
-Text HLabel 1650 2875 0    50   Input ~ 0
-FPGA_D11
-Wire Wire Line
-	1925 2975 1650 2975
-Text HLabel 1650 2975 0    50   Input ~ 0
-FPGA_D12
-Wire Wire Line
-	1925 2775 1650 2775
-Text HLabel 1650 2675 0    50   Input ~ 0
-FPGA_D0
-Wire Wire Line
-	1925 2675 1650 2675
-Text HLabel 1650 2775 0    50   Input ~ 0
-FPGA_D1
-Wire Wire Line
-	7525 2975 7250 2975
-Text HLabel 7250 2975 0    50   Input ~ 0
-FPGA_D2
-Wire Wire Line
-	7525 3175 7250 3175
-Text HLabel 7250 3175 0    50   Input ~ 0
-FPGA_D3
-Wire Wire Line
-	1925 3875 1650 3875
-Text HLabel 1650 3875 0    50   Input ~ 0
-FPGA_D13
-Wire Wire Line
-	1925 4075 1650 4075
-Text HLabel 1650 4075 0    50   Input ~ 0
-FPGA_D14
-Wire Wire Line
-	1925 4175 1650 4175
-Text HLabel 1650 4175 0    50   Input ~ 0
-FPGA_D15
-Text HLabel 4250 2950 0    50   Input ~ 0
-FPGA_NE1
-Text HLabel 4250 3550 0    50   Input ~ 0
-FPGA_NOE
-Text HLabel 4250 3350 0    50   Input ~ 0
-FPGA_NWE
 Wire Wire Line
 	1925 4275 1650 4275
 Text HLabel 1650 4275 0    50   Input ~ 0
+FPGA_D11
+Wire Wire Line
+	1925 4175 1650 4175
+Text HLabel 1650 4175 0    50   Input ~ 0
+FPGA_D12
+Wire Wire Line
+	1925 3275 1650 3275
+Text HLabel 1650 3375 0    50   Input ~ 0
+FPGA_D0
+Wire Wire Line
+	1925 3375 1650 3375
+Text HLabel 1650 3275 0    50   Input ~ 0
+FPGA_D1
+Wire Wire Line
+	1925 3175 1650 3175
+Text HLabel 1650 3175 0    50   Input ~ 0
+FPGA_D2
+Wire Wire Line
+	1925 3075 1650 3075
+Text HLabel 1650 3075 0    50   Input ~ 0
+FPGA_D3
+Wire Wire Line
+	1925 4075 1650 4075
+Text HLabel 1650 4075 0    50   Input ~ 0
+FPGA_D13
+Wire Wire Line
+	1925 3875 1650 3875
+Text HLabel 1650 3875 0    50   Input ~ 0
+FPGA_D14
+Wire Wire Line
+	1925 3475 1650 3475
+Text HLabel 1650 3475 0    50   Input ~ 0
+FPGA_D15
+Text HLabel 1450 2875 0    50   Input ~ 0
+FPGA_NOE
+Text HLabel 1450 2975 0    50   Input ~ 0
+FPGA_NWE
+Wire Wire Line
+	1925 3675 1650 3675
+Text HLabel 1650 3675 0    50   Input ~ 0
 FPGA_A16
 Wire Wire Line
-	7525 3075 7250 3075
-Text HLabel 7250 3075 0    50   Input ~ 0
+	1925 3575 1650 3575
+Text HLabel 1650 3575 0    50   Input ~ 0
 FPGA_CLK
 Wire Wire Line
-	1925 3575 1650 3575
-Wire Wire Line
-	4250 3550 4725 3550
-Wire Wire Line
-	4250 3350 4725 3350
-Wire Wire Line
-	4250 2950 4725 2950
-Wire Wire Line
 	7525 2875 7250 2875
-Text HLabel 7250 2875 0    50   Output ~ 0
+Wire Wire Line
+	1450 2875 1925 2875
+Wire Wire Line
+	1450 2975 1925 2975
+Wire Wire Line
+	4725 3350 4450 3350
+Text HLabel 4450 3350 0    50   Output ~ 0
 FPGA_HAVE_DATA
 $Bitmap
 Pos 10500 6850
@@ -1072,4 +1066,8 @@ B1 FA F3 E2 C5 8B 3A E5 21 E4 E5 E5 6B 1D E4 03 55 59 99 53 52 52 48 8F AB AB AB
 07 47 25 A5 D2 E9 03 52 D8 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+Wire Wire Line
+	1450 2675 1925 2675
+Text HLabel 1450 2675 0    50   Input ~ 0
+FPGA_NE1
 $EndSCHEMATC
