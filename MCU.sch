@@ -1646,8 +1646,8 @@ Wire Wire Line
 	10850 1850 10850 1950
 Connection ~ 10750 1850
 Wire Wire Line
-	11550 4350 11825 4350
-Text HLabel 11825 4350 2    50   Output ~ 0
+	11550 2650 11825 2650
+Text HLabel 11825 2650 2    50   Output ~ 0
 FPGA_CFG_CS
 $Comp
 L Device:C C1
@@ -2257,4 +2257,216 @@ F 3 "" H 11325 1050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	11325 1050 11325 1000
+$Comp
+L Memory_Flash:MX25R3235FZNxx1 U3
+U 1 1 5F6E668A
+P 2675 3050
+F 0 "U3" H 2300 3400 50  0000 L CNN
+F 1 "MX25R3235FZNxx1" H 3100 2800 50  0000 L CNN
+F 2 "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm" H 2675 2450 50  0001 C CNN
+F 3 "http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf" H 2675 3050 50  0001 C CNN
+F 4 "https://www.mouser.fr/ProductDetail/Kioxia-America/TH58CVG3S0HRAIJ?qs=sGAEpiMZZMsvMKIWTvUzyrn2D0eOecT4MQwu4DbUMkOkdtzRYJaqtA%3D%3D" H 2675 3050 50  0001 C CNN "Mouser"
+	1    2675 3050
+	1    0    0    -1  
+$EndComp
+Text Notes 3125 2850 0    50   ~ 0
+TH58CVG3S0HRAIJ
+$Comp
+L Memory_Flash:MX25R3235FZNxx1 U4
+U 1 1 5F6E98D3
+P 2675 4250
+F 0 "U4" H 2300 4600 50  0000 L CNN
+F 1 "MX25R3235FZNxx1" H 3125 4000 50  0000 L CNN
+F 2 "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm" H 2675 3650 50  0001 C CNN
+F 3 "http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf" H 2675 4250 50  0001 C CNN
+F 4 "https://www.mouser.fr/ProductDetail/Kioxia-America/TH58CVG3S0HRAIJ?qs=sGAEpiMZZMsvMKIWTvUzyrn2D0eOecT4MQwu4DbUMkOkdtzRYJaqtA%3D%3D" H 2675 4250 50  0001 C CNN "Mouser"
+	1    2675 4250
+	1    0    0    -1  
+$EndComp
+Text Notes 3125 4050 0    50   ~ 0
+TH58CVG3S0HRAIJ
+$Comp
+L Device:C C14
+U 1 1 5F7054A1
+P 1800 1850
+F 0 "C14" V 1750 2000 50  0000 C CNN
+F 1 "100nF" H 1950 1950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1838 1700 50  0001 C CNN
+F 3 "~" H 1800 1850 50  0001 C CNN
+	1    1800 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1700 1800 1650
+Wire Wire Line
+	1800 1650 1875 1650
+Text Label 1875 1650 0    50   ~ 0
+3.3V
+$Comp
+L power:GND #PWR0157
+U 1 1 5F7054AE
+P 1800 2050
+F 0 "#PWR0157" H 1800 1800 50  0001 C CNN
+F 1 "GND" H 1805 1877 50  0000 C CNN
+F 2 "" H 1800 2050 50  0001 C CNN
+F 3 "" H 1800 2050 50  0001 C CNN
+	1    1800 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 2050 1800 2000
+$Comp
+L Device:C C13
+U 1 1 5F7054B9
+P 1375 1850
+F 0 "C13" V 1325 2000 50  0000 C CNN
+F 1 "100nF" H 1525 1950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1413 1700 50  0001 C CNN
+F 3 "~" H 1375 1850 50  0001 C CNN
+	1    1375 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1375 1700 1375 1650
+Wire Wire Line
+	1375 1650 1450 1650
+Text Label 1450 1650 0    50   ~ 0
+3.3V
+$Comp
+L power:GND #PWR0158
+U 1 1 5F7054C6
+P 1375 2050
+F 0 "#PWR0158" H 1375 1800 50  0001 C CNN
+F 1 "GND" H 1380 1877 50  0000 C CNN
+F 2 "" H 1375 2050 50  0001 C CNN
+F 3 "" H 1375 2050 50  0001 C CNN
+	1    1375 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1375 2050 1375 2000
+Wire Wire Line
+	2875 2650 2875 2600
+Wire Wire Line
+	2875 2600 2950 2600
+Text Label 2950 2600 0    50   ~ 0
+3.3V
+Wire Wire Line
+	2875 3850 2875 3800
+Wire Wire Line
+	2875 3800 2950 3800
+Text Label 2950 3800 0    50   ~ 0
+3.3V
+$Comp
+L power:GND #PWR0159
+U 1 1 5F74A431
+P 2875 3500
+F 0 "#PWR0159" H 2875 3250 50  0001 C CNN
+F 1 "GND" H 2880 3327 50  0000 C CNN
+F 2 "" H 2875 3500 50  0001 C CNN
+F 3 "" H 2875 3500 50  0001 C CNN
+	1    2875 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2875 3500 2875 3450
+$Comp
+L power:GND #PWR0160
+U 1 1 5F75C62C
+P 2875 4700
+F 0 "#PWR0160" H 2875 4450 50  0001 C CNN
+F 1 "GND" H 2880 4527 50  0000 C CNN
+F 2 "" H 2875 4700 50  0001 C CNN
+F 3 "" H 2875 4700 50  0001 C CNN
+	1    2875 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2875 4700 2875 4650
+Wire Wire Line
+	11550 4250 11900 4250
+Wire Wire Line
+	11550 4350 11900 4350
+Wire Wire Line
+	11550 4450 11900 4450
+Text Label 11900 4250 0    50   ~ 0
+SPI1_SCK
+Text Label 11900 4350 0    50   ~ 0
+SPI1_MISO
+Text Label 11900 4450 0    50   ~ 0
+SPI1_MOSI
+Text Label 1825 2950 2    50   ~ 0
+SPI1_SCK
+Text Label 3525 3050 0    50   ~ 0
+SPI1_MISO
+Text Label 1825 2850 2    50   ~ 0
+SPI1_MOSI
+Wire Wire Line
+	11550 3750 11900 3750
+Text Label 11900 3750 0    50   ~ 0
+SPI1_NSS
+Text Label 1825 3050 2    50   ~ 0
+SPI1_NSS
+Wire Wire Line
+	8950 6350 8600 6350
+Wire Wire Line
+	8950 6450 8600 6450
+Wire Wire Line
+	8950 6550 8600 6550
+Text Label 8600 6350 2    50   ~ 0
+SPI5_SCK
+Text Label 8600 6450 2    50   ~ 0
+SPI5_MISO
+Text Label 8600 6550 2    50   ~ 0
+SPI5_MOSI
+Wire Wire Line
+	8950 6250 8600 6250
+Text Label 8600 6250 2    50   ~ 0
+SPI5_NSS
+Wire Wire Line
+	2175 4150 1825 4150
+Wire Wire Line
+	3175 4250 3525 4250
+Wire Wire Line
+	2175 4050 1825 4050
+Text Label 1825 4150 2    50   ~ 0
+SPI5_SCK
+Text Label 3525 4250 0    50   ~ 0
+SPI5_MISO
+Text Label 1825 4050 2    50   ~ 0
+SPI5_MOSI
+Wire Wire Line
+	2175 4250 1825 4250
+Text Label 1825 4250 2    50   ~ 0
+SPI5_NSS
+Wire Wire Line
+	2175 2950 1825 2950
+Wire Wire Line
+	2175 2850 1825 2850
+Wire Wire Line
+	2175 3050 1825 3050
+Wire Wire Line
+	3175 3050 3525 3050
+Text Label 1825 3150 2    50   ~ 0
+3.3V
+Wire Wire Line
+	2175 3150 2100 3150
+Wire Wire Line
+	2175 3250 2100 3250
+Wire Wire Line
+	2100 3250 2100 3150
+Connection ~ 2100 3150
+Wire Wire Line
+	2100 3150 1825 3150
+Text Label 1825 4350 2    50   ~ 0
+3.3V
+Wire Wire Line
+	2175 4350 2100 4350
+Wire Wire Line
+	2175 4450 2100 4450
+Wire Wire Line
+	2100 4450 2100 4350
+Connection ~ 2100 4350
+Wire Wire Line
+	2100 4350 1825 4350
 $EndSCHEMATC

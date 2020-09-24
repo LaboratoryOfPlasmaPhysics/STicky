@@ -1681,17 +1681,6 @@ F 3 "~" H 1025 7350 50  0001 C CNN
 	1    1025 7350
 	1    0    0    -1  
 $EndComp
-$Comp
-L Graphic:Logo_Open_Hardware_Small LOGO2
-U 1 1 5F7EA65D
-P 1600 7350
-F 0 "LOGO2" H 1600 7625 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Small" H 1600 7125 50  0001 C CNN
-F 2 "Symbol:KiCad-Logo_5mm_SilkScreen" H 1600 7350 50  0001 C CNN
-F 3 "~" H 1600 7350 50  0001 C CNN
-	1    1600 7350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1000 2625 3125 2625
 Wire Wire Line
