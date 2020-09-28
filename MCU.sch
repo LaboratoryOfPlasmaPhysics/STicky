@@ -2646,4 +2646,6 @@ Text Label 8375 2350 0    50   ~ 0
 PDR_ON
 Wire Wire Line
 	8950 2350 8375 2350
+Text Notes 7775 4300 0    50   ~ 0
+Capa not needed
 $EndSCHEMATC
