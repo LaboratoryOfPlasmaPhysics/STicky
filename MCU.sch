@@ -1920,7 +1920,7 @@ $EndComp
 Wire Wire Line
 	11700 5250 11550 5250
 Wire Wire Line
-	12175 5250 12000 5250
+	13525 5250 12000 5250
 $Comp
 L Device:C C?
 U 1 1 5FA9EFD8
@@ -2128,46 +2128,21 @@ Wire Wire Line
 Wire Wire Line
 	8950 2750 8875 2750
 $Comp
-L Power_Protection:USB6B1 U2
-U 1 1 5FDD44B2
-P 13200 5400
-F 0 "U2" H 13325 5725 50  0000 C CNN
-F 1 "USB6B1" H 13425 5650 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 13200 5400 50  0001 C CNN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/3e/ec/b2/54/b2/76/47/90/CD00001361.pdf/files/CD00001361.pdf/jcr:content/translations/en.CD00001361.pdf" H 12250 5300 50  0001 C CNN
-	1    13200 5400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11550 5350 12575 5350
-Wire Wire Line
-	12575 5350 12575 5300
-Wire Wire Line
-	12575 5300 12800 5300
-Wire Wire Line
-	11550 5450 12575 5450
-Wire Wire Line
-	12575 5450 12575 5500
-Wire Wire Line
-	12575 5500 12800 5500
-$Comp
 L power:GND #PWR?
 U 1 1 5FE72A8B
-P 13200 5775
+P 13525 6750
 AR Path="/5F66CB5F/5FE72A8B" Ref="#PWR?"  Part="1" 
 AR Path="/5F674C0E/5FE72A8B" Ref="#PWR?"  Part="1" 
 AR Path="/5F66CA66/5FE72A8B" Ref="#PWR0154"  Part="1" 
-F 0 "#PWR0154" H 13200 5525 50  0001 C CNN
-F 1 "GND" H 13205 5602 50  0000 C CNN
-F 2 "" H 13200 5775 50  0001 C CNN
-F 3 "" H 13200 5775 50  0001 C CNN
-	1    13200 5775
+F 0 "#PWR0154" H 13525 6500 50  0001 C CNN
+F 1 "GND" H 13530 6577 50  0000 C CNN
+F 2 "" H 13525 6750 50  0001 C CNN
+F 3 "" H 13525 6750 50  0001 C CNN
+	1    13525 6750
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	13200 5775 13200 5700
-Wire Wire Line
-	13200 5100 13200 4750
+	13525 6750 13525 6675
 Wire Wire Line
 	14325 5250 14325 5300
 Wire Wire Line
@@ -2183,12 +2158,7 @@ Connection ~ 14325 5500
 Wire Wire Line
 	14325 5500 14325 5550
 Wire Wire Line
-	13200 4750 14550 4750
-Wire Wire Line
-	13200 4750 12175 4750
-Wire Wire Line
-	12175 4750 12175 5250
-Connection ~ 13200 4750
+	13525 4750 13525 5250
 Text Label 12200 5350 0    50   ~ 0
 USB_D-
 Text Label 12200 5450 0    50   ~ 0
@@ -2648,4 +2618,37 @@ Wire Wire Line
 	8950 2350 8375 2350
 Text Notes 7775 4300 0    50   ~ 0
 Capa not needed
+Wire Wire Line
+	13600 5350 13600 5300
+Wire Wire Line
+	11550 5350 13600 5350
+Wire Wire Line
+	13600 5450 13600 5500
+Wire Wire Line
+	11550 5450 13600 5450
+Wire Wire Line
+	13525 4750 14550 4750
+$Comp
+L Power_Protection:TPD2E2U06 U2
+U 1 1 5FECB70F
+P 13525 6375
+F 0 "U2" H 13525 6742 50  0000 C CNN
+F 1 "TPD2E2U06" H 13525 6651 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-553" H 12725 6125 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd2e2u06.pdf" H 13325 6575 50  0001 C CNN
+	1    13525 6375
+	1    0    0    -1  
+$EndComp
+Text Label 12900 6475 0    50   ~ 0
+USB_D-
+Text Label 12900 6275 0    50   ~ 0
+USB_D+
+Text Label 13950 6475 0    50   ~ 0
+USB_D-
+Wire Wire Line
+	13950 6475 13825 6475
+Wire Wire Line
+	13225 6475 12900 6475
+Wire Wire Line
+	13225 6275 12900 6275
 $EndSCHEMATC
