@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.15
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [],
@@ -437,10 +437,6 @@
       "Sheet5F71E7BC"
     ],
     [
-      "00000000-0000-0000-0000-00005f66ca66",
-      "Sheet5F66CA65"
-    ],
-    [
       "00000000-0000-0000-0000-00005f6cbd4c",
       "Sheet5F6CBD4B"
     ],
@@ -451,6 +447,10 @@
     [
       "00000000-0000-0000-0000-00005f0b5c35",
       "Sheet5F0B5C34"
+    ],
+    [
+      "1d4ca5a6-fa1b-48f7-b93e-efcb0c32e0eb",
+      "USB"
     ],
     [
       "00000000-0000-0000-0000-00005f0e9b95",
