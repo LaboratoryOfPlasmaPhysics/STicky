@@ -493,7 +493,7 @@
       (property "Datasheet" "" (id 3) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
+      (property "ki_keywords" "global power" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (id 5) (at 0 0 0)
@@ -3044,11 +3044,8 @@
     (path "/00000000-0000-0000-0000-00005f71e7bd/00000000-0000-0000-0000-00005f9727b9"
       (reference "#PWR0132") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005f71e7bd/00000000-0000-0000-0000-00005f9767ff"
+    (path "/00000000-0000-0000-0000-00005f71e7bd/d21006d3-1f49-4fe7-9fe3-2b4889068c19"
       (reference "#PWR0133") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005f71e7bd/00000000-0000-0000-0000-00005f978d01"
-      (reference "#PWR0134") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005f71e7bd/00000000-0000-0000-0000-00005f983d3e"
       (reference "#PWR0135") (unit 1) (value "GND") (footprint "")
@@ -3305,6 +3302,9 @@
     (path "/00000000-0000-0000-0000-00005f6cbd4c/0b06615d-a0c0-4ed9-af9e-9d67f7cc5022"
       (reference "C23") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
     )
+    (path "/00000000-0000-0000-0000-00005f71e7bd/4462e1fb-82b7-452b-b0e1-e05ce1ab77bd"
+      (reference "C24") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
     (path "/00000000-0000-0000-0000-00005f6cbd4c/00000000-0000-0000-0000-00005f6e7606"
       (reference "C401") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
     )
@@ -3388,9 +3388,6 @@
     )
     (path "/00000000-0000-0000-0000-00005f71e7bd/00000000-0000-0000-0000-00005f0e649e"
       (reference "C805") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005f71e7bd/00000000-0000-0000-0000-00005f977fb6"
-      (reference "C806") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005f71e7bd/00000000-0000-0000-0000-00005f9853a1"
       (reference "C807") (unit 1) (value "22uF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
@@ -3566,12 +3563,6 @@
     (path "/00000000-0000-0000-0000-00005f6cbd4c/738ff952-4e6a-49e2-9ac1-242ba46c55d1"
       (reference "R12") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-00005f6cbd4c/809f36a1-6431-4146-a030-f4d3f6feeef9"
-      (reference "R13") (unit 1) (value "470") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005f6cbd4c/3fafe5bf-225c-47be-b0bf-4b785735e662"
-      (reference "R14") (unit 1) (value "470") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
-    )
     (path "/00000000-0000-0000-0000-00005f6cbd4c/d7e6c200-1ede-49ee-9c50-afa2b609f0bc"
       (reference "R15") (unit 1) (value "470") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
@@ -3655,6 +3646,9 @@
     )
     (path "/00000000-0000-0000-0000-00005f6cbd4c/b4cd6fa2-026b-4516-b48f-fef0fd997f3a"
       (reference "U5") (unit 1) (value "25LCxxx") (footprint "Package_SO:SOP-8_3.9x4.9mm_P1.27mm")
+    )
+    (path "/00000000-0000-0000-0000-00005f6cbd4c/701fa9e2-501e-4bfd-abe7-fca4a39ca69b"
+      (reference "U6") (unit 1) (value "UGA") (footprint "UGA:UGA_0603")
     )
     (path "/00000000-0000-0000-0000-00005f6d344a/00000000-0000-0000-0000-00005f060783"
       (reference "U501") (unit 1) (value "ADS92x4R") (footprint "Package_DFN_QFN:VQFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm")
